@@ -12,9 +12,9 @@ from src.datascience.utils.common import read_yaml, create_directories,save_json
 
 
 import os
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ALIKHAN4/projectone.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="ALIKHAN4"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="b2a3b7692983dc12d2d1e53829a69f4313ee7c96"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ZeroCipherX/wine-quality-modular-mlops.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="ZeroCipherX"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="0ff5f1d34836bfb8ca4714236468bf55d080f433"
 
 
 
