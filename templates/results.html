@@ -1,2 +1,32 @@
-<h1>{{prediction}} </h1>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result - Wine Quality</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Prediction Result</h1>
+        </header>
+
+        <div class="card result-container">
+            <p class="subtitle">Estimated Quality Score</p>
+
+            <div class="result-badge">
+                {{ prediction }}
+            </div>
+
+            <div class="form-actions">
+                <a href="/" class="btn">Predict Another Wine</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
